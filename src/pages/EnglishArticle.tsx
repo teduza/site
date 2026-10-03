@@ -414,10 +414,10 @@ export const EnglishArticle: React.FC<EnglishArticleProps> = () => {
               </h3>
 
               <EditableBlock
-                id="story_family_thanks_v2_en"
+                id="story_family_thanks_v3_en"
                 theme="dark"
                 textClassName="text-slate-200 text-[17px] sm:text-[18px] leading-[1.85]"
-                initialText="Behind this journey stand far more than my own efforts alone. My family offered invaluable support — Father, Mother, Elder Sister, Younger Brother, and Younger Sister.&#10;&#10;Most vital to me was the steadfast support of my Father, who stood by me even when M.A.R.S. existed only as a nascent thought and rough experiments. Without this backing, this path would have been impossible. And I state this with proud gratitude. It is precisely because of that support that I was able to press forward, and continue doing so today."
+                initialText="Behind this journey stand far more than my own efforts alone. My family offered invaluable support — Father, Mother, Elder Sister, Younger Brother, and Younger Sister.&#10;&#10;Most vital to me was the steadfast support of my Father, who stood by me even when M.A.R.S. existed only as a nascent thought and rough experiments. Without this backing, this path would have been impossible. It is precisely because of that support that I was able to press forward, and continue doing so today."
               />
             </div>
           </div>
