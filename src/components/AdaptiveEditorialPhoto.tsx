@@ -89,13 +89,13 @@ export const AdaptiveEditorialPhoto: React.FC<AdaptiveEditorialPhotoProps> = ({
 
   return (
     <>
-      <figure className="my-8 sm:my-12 relative max-w-[620px] mx-auto px-4 sm:px-0">
+      <figure
+        className={`my-8 sm:my-12 relative mx-auto px-4 sm:px-0 transition-all ${
+          isPortrait ? 'max-w-[380px] sm:max-w-[420px]' : 'max-w-[620px]'
+        }`}
+      >
         {/* Image frame — authentic, no cropping, responsive fallback */}
-        <div
-          className={`mx-auto overflow-hidden rounded-xl border border-gray-200/90 bg-gray-50 shadow-xs relative flex items-center justify-center transition-all ${
-            isPortrait ? 'max-w-[380px] sm:max-w-[420px]' : 'w-full'
-          }`}
-        >
+        <div className="w-full overflow-hidden rounded-xl border border-gray-200/90 bg-gray-50 shadow-xs relative flex items-center justify-center">
           <div
             onClick={() => setIsViewerOpen(true)}
             className="w-full relative cursor-pointer"
@@ -111,11 +111,11 @@ export const AdaptiveEditorialPhoto: React.FC<AdaptiveEditorialPhotoProps> = ({
           </div>
         </div>
 
-        {/* Clean caption bar below image */}
-        <div className="mt-2.5 flex items-baseline justify-between text-xs font-mono text-gray-500 gap-3">
-          <span className="flex-1 text-[#4B5563]">{defaultCaption}</span>
+        {/* Clean caption bar below image — strictly pinned to the photo's width */}
+        <div className="mt-2.5 flex items-baseline justify-between text-xs font-mono text-gray-500 gap-3 px-1">
+          <span className="flex-1 text-[#4B5563] leading-relaxed">{defaultCaption}</span>
           {dateTag && (
-            <span className="text-[11px] text-gray-400 font-mono shrink-0">
+            <span className="text-[11px] text-gray-400 font-mono shrink-0 select-none">
               {dateTag}
             </span>
           )}
