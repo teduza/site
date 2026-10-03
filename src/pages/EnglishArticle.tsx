@@ -10,6 +10,7 @@ export const EnglishArticle: React.FC<EnglishArticleProps> = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
+    document.title = 'Aleksandr Sarkisian';
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 400);
     };

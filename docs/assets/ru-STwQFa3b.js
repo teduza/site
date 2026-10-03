@@ -1,0 +1,1 @@
+import{c as e,i as t,l as n,s as r,t as i}from"./src-BBDbUKUj.js";var a=n(e(),1),o=n(r(),1),s=t(),c=`/app/applet/ru/main.tsx`;o.createRoot(document.getElementById(`root`)).render((0,s.jsxDEV)(a.StrictMode,{children:(0,s.jsxDEV)(i,{},void 0,!1,{fileName:c,lineNumber:8,columnNumber:5},void 0)},void 0,!1,{fileName:c,lineNumber:7,columnNumber:3},void 0));

@@ -13,10 +13,10 @@ export default function App() {
   // Sync document title and html lang attribute dynamically
   useEffect(() => {
     if (isRu) {
-      document.title = 'Саркисян Александр (Aleksandr Sarkisian) — Как появился M.A.R.S. Companion';
+      document.title = 'Саркисян Александр';
       document.documentElement.lang = 'ru';
     } else {
-      document.title = 'Aleksandr Sarkisian — How M.A.R.S. Companion Came to Be';
+      document.title = 'Aleksandr Sarkisian';
       document.documentElement.lang = 'en';
     }
   }, [isRu]);
