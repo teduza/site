@@ -1,0 +1,6 @@
+{
+  "name": "sarkisian.site — Aleksandr Sarkisian",
+  "description": "Личная история создателя офлайн ИИ-компаньона M.A.R.S.: как рождался проект, патентные заявки в Великобритании, компания M.A.R.S. Companion LLC и жизнь в Армении.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
