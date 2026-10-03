@@ -1,0 +1,1 @@
+import{a as e,c as t,l as n,t as r,u as i}from"./src-CSEZGlDs.js";var a=i(n(),1),o=i(t(),1),s=e(),c=`/app/applet/ru/main.tsx`;o.createRoot(document.getElementById(`root`)).render((0,s.jsxDEV)(a.StrictMode,{children:(0,s.jsxDEV)(r,{},void 0,!1,{fileName:c,lineNumber:8,columnNumber:5},void 0)},void 0,!1,{fileName:c,lineNumber:7,columnNumber:3},void 0));
