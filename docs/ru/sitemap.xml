@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- English Homepage -->
+  <url>
+    <loc>https://sarkisian.site/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sarkisian.site/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sarkisian.site/ru/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sarkisian.site/" />
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_120726.jpg</image:loc>
+      <image:title>Aleksandr Sarkisian, Founder &amp; System Architect of M.A.R.S. COMPANION LLC</image:title>
+      <image:caption>Aleksandr Sarkisian portrait, 2026</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_Yerevan_150826.jpg</image:loc>
+      <image:title>Aleksandr Sarkisian in Yerevan, 2026</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_St.Petersburg_300626.jpg</image:loc>
+      <image:title>Aleksandr Sarkisian in Saint Petersburg, 2026</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_VMedA_291025.jpg</image:loc>
+      <image:title>Aleksandr Sarkisian at Military Medical Academy, 2025</image:title>
+    </image:image>
+  </url>
+
+  <!-- Russian Version -->
+  <url>
+    <loc>https://sarkisian.site/ru/</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sarkisian.site/ru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sarkisian.site/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sarkisian.site/" />
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_120726.jpg</image:loc>
+      <image:title>Саркисян Александр, основатель и системный архитектор M.A.R.S. COMPANION LLC</image:title>
+      <image:caption>Саркисян Александр, 2026</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_Yerevan_150826.jpg</image:loc>
+      <image:title>Саркисян Александр в Ереване, 2026</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_St.Petersburg_300626.jpg</image:loc>
+      <image:title>Саркисян Александр в Санкт-Петербурге, 2026</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://sarkisian.site/images/Aleksandr_Sarkisian_VMedA_291025.jpg</image:loc>
+      <image:title>Саркисян Александр в Военно-медицинской академии, 2025</image:title>
+    </image:image>
+  </url>
+</urlset>
