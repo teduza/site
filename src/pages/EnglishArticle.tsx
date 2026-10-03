@@ -41,7 +41,7 @@ export const EnglishArticle: React.FC<EnglishArticleProps> = () => {
             <span className="text-[#111827] font-semibold">EN</span>
             <span className="text-[#D1D5DB]">/</span>
             <a
-              href="/ru"
+              href="./ru/"
               className="text-[#6B7280] hover:text-[#111827] transition-colors"
               title="Перейти на русскую версию"
             >
